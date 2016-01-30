@@ -64,6 +64,7 @@ app.controller("SampleCtrl", function($scope, $firebaseArray){
 
 
 
+
 // complete
 // For 7 days, make a timestamp of the current time as an attribute on each message
 // Stub a fake time that is over 7 days old to test
