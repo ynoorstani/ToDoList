@@ -45,17 +45,12 @@ app.controller("SampleCtrl", function($scope, $firebaseArray){
 	
 });
 
-// TO find out if it is older than 7 days
-// Time.now - 7*60*60*24
+
 
 
 
 // After I complete, possibly add a second controller 
 // use a stateprovider + templates
-
-
-
-
 // lists
 // completed status
 // a due date
@@ -65,6 +60,9 @@ app.controller("SampleCtrl", function($scope, $firebaseArray){
 
 
 
+
+// TO find out if it is older than 7 days
+// Time.now - 7*60*60*24 complete
 // complete
 // For 7 days, make a timestamp of the current time as an attribute on each message
 // Stub a fake time that is over 7 days old to test
